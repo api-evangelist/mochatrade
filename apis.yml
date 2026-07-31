@@ -1,22 +1,61 @@
 aid: mochatrade
 name: Mochatrade
-description: Mochatrade is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mochatrade is a regulated neo-brokerage for Indian traders offering onchain
+  perpetual futures on US stocks and commodities. Traders access 50+ US equities
+  (including TSLA, NVDA, AAPL), pre-IPO names, commodities, and crypto with up to
+  20x leverage, settled in USDC on Hyperliquid, with INR on- and off-ramps via UPI
+  and self-custody wallets. Founded in 2026 by IIT graduates who previously built
+  a crypto wallet acquired after 2M installs, the company brings professional-grade
+  derivatives execution to India's 140M+ demat account holders. Backed by Y
+  Combinator (Spring 2026) and Pioneer. As of this enrichment pass Mochatrade
+  publishes only a marketing landing page (a client-rendered SPA) and no public
+  developer API, documentation, or developer portal surface.
 url: https://raw.githubusercontent.com/api-evangelist/mochatrade/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://mochatrade.com/og-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+- pioneer
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Trading
+- Brokerage
+- Fintech
+- Cryptocurrency
+- Perpetual Futures
+- Derivatives
+- India
 apis: []
+common:
+- type: Website
+  url: https://www.mochatrade.com
+- type: Company
+  url: https://www.ycombinator.com/companies/mochatrade
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
