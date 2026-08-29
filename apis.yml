@@ -12,6 +12,17 @@ description: >-
   publishes only a marketing landing page (a client-rendered SPA) and no public
   developer API, documentation, or developer portal surface.
 url: https://raw.githubusercontent.com/api-evangelist/mochatrade/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
